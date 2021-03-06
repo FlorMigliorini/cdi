@@ -6,6 +6,8 @@ import br.com.livro.cdi.FuncionarioBuilder;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+
+@CalculadoraBean
 public class CalculadoraImpostosBean {
 
     private static final long serialVersionUID = 1L;

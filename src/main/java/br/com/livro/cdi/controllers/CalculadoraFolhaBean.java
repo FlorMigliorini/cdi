@@ -5,12 +5,16 @@ import br.com.livro.cdi.Folha;
 import br.com.livro.cdi.Funcionario;
 import br.com.livro.cdi.FuncionarioBuilder;
 import java.io.Serializable;
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.Conversation;
+import javax.enterprise.context.ConversationScoped;
 import javax.inject.Inject;
+import javax.inject.Named;
 
+
+@Named @ConversationScoped
 public class CalculadoraFolhaBean implements Serializable {
 
     private Folha folha;
