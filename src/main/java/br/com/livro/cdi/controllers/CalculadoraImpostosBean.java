@@ -3,6 +3,7 @@ package br.com.livro.cdi.controllers;
 import br.com.livro.cdi.CalculadoraDeImpostos;
 import br.com.livro.cdi.Funcionario;
 import br.com.livro.cdi.FuncionarioBuilder;
+import br.com.livro.cdi.esteriotipo.CalculadoraBean;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
