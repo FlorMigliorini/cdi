@@ -1,6 +1,8 @@
 package br.com.livro.cdi.eventos;
 
 import br.com.livro.cdi.Funcionario;
+import static br.com.livro.cdi.eventos.TipoDesligamento.APOSENTADORIA;
+import static br.com.livro.cdi.eventos.TipoDesligamento.DEMISSAO;
 import java.lang.annotation.Annotation;
 import javax.annotation.PostConstruct;
 import javax.enterprise.event.Event;

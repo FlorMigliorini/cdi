@@ -1,7 +1,7 @@
 package br.com.livro.cdi.eventos;
 
 import br.com.livro.cdi.Funcionario;
-import java.util.logging.Logger;
+import com.sun.org.slf4j.internal.Logger;
 import javax.annotation.Resource;
 import javax.ejb.Asynchronous;
 import javax.ejb.Stateless;
