@@ -1,12 +1,13 @@
 package br.com.livro.cdi.jsf;
 
 import java.util.Map;
-import javafx.application.Application;
+
 import javax.enterprise.inject.Produces;
 import javax.faces.annotation.ApplicationMap;
 import javax.faces.annotation.RequestMap;
 import javax.faces.annotation.RequestParameterMap;
 import javax.faces.annotation.SessionMap;
+import javax.faces.application.Application;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 

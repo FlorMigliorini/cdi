@@ -5,7 +5,7 @@ import br.com.livro.cdi.Folha;
 import br.com.livro.cdi.Funcionario;
 import br.com.livro.cdi.FuncionarioBuilder;
 import java.io.Serializable;
-//import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.Conversation;
@@ -31,7 +31,7 @@ public class CalculadoraFolhaBean implements Serializable {
     @PostConstruct
     public void init() {
         builder = new FuncionarioBuilder();
-//        funcionarios = new ArrayList<>();
+        funcionarios = new ArrayList<>();
 
     }
 

@@ -1,14 +1,11 @@
 package br.com.livro.cdi.eventos;
 
 import br.com.livro.cdi.Funcionario;
-import com.sun.org.slf4j.internal.Logger;
-import javax.annotation.Resource;
-import javax.ejb.Asynchronous;
+
 import javax.ejb.Stateless;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
-import javax.jms.JMSContext;
-import javax.jms.Topic;
+import org.slf4j.Logger;
 
 @Stateless
 public class ObservadorDeFuncionarios {
