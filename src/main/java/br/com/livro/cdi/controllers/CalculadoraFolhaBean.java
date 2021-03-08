@@ -31,7 +31,7 @@ public class CalculadoraFolhaBean implements Serializable {
     @PostConstruct
     public void init() {
         builder = new FuncionarioBuilder();
-        funcionarios = new ArrayList<>();
+//        funcionarios = new ArrayList<>();
 
     }
 
