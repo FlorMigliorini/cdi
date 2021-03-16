@@ -1,7 +1,6 @@
 package br.com.livro.cdi.jsf.eventos;
 
 
-import com.sun.org.slf4j.internal.Logger;
 import java.lang.annotation.Annotation;
 
 import javax.enterprise.event.Event;
@@ -16,6 +15,7 @@ import static javax.faces.event.PhaseId.RESTORE_VIEW;
 import static javax.faces.event.PhaseId.UPDATE_MODEL_VALUES;
 import javax.faces.event.PhaseListener;
 import javax.inject.Inject;
+import org.slf4j.Logger;
 
 public class EventPhaseListener  implements PhaseListener{
 

@@ -1,11 +1,10 @@
 package br.com.livro.cdi.jsf.eventos;
 
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
-
 import javax.enterprise.inject.spi.BeanManager;
 import javax.naming.Context;
 import javax.naming.InitialContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CdiUtils {
 
